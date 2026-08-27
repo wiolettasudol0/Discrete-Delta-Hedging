@@ -1,4 +1,4 @@
-# Discrete Delta-Hedging & Tracking Error in the Black-Scholes Model
+# Discrete Delta-Hedging Simulation in the Black-Scholes Model
 
 ## Overview
 In continuous-time Black-Scholes financial market models, a self-financing portfolio perfectly replicates a European Call option ($V_{x,y}(T) = (S(T) - K)^+$). However, in realistic market environments, portfolios can only be rebalanced at discrete time intervals $t_i = i \frac{T}{m}$, which inevitably induces **tracking / hedging error** ($X$):
